@@ -1,0 +1,52 @@
+@media (min-width:440px) and (max-width:900px)  {
+    header{
+        display: flex;
+        flex-direction: column;
+
+    }
+    header .logo{
+        font-size: 70px; 
+    }
+    header ul{
+        width: 80%;
+    }
+    .img ul li a{
+        font-size: 13px;
+    }
+    .text {
+        font-size: 40px;
+        top: 25%;
+
+    }
+    .img .search .textsearch{
+        width: 60%;
+        font-size: 14px;
+    }
+    
+    
+}
+@media (max-width:439px){
+    header{
+        display: flex;
+        flex-direction: column;
+
+    }
+    header .logo{
+        font-size: 40px; 
+    }
+    header ul{
+        width: 100%;
+    }
+    .img ul li a{
+        font-size: 8px;
+    }
+    .text {
+        font-size: 30px;
+        top: 25%;
+
+    }
+    .img .search .textsearch{
+        width: 60%;
+        font-size: 14px;
+    }
+}
